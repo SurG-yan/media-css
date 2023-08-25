@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --bg-red:#993333;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    /* background-color: white; */
+}
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+ul,ol {
+    list-style: none;
+}
+.clear::after {
+    content: '';
+    display: block;
+    clear: both;
+}
